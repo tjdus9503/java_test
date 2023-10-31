@@ -5,6 +5,7 @@ public class Main {
         System.out.println("main 함수가 실행되었습니다.");
         System.out.println("한 줄 추가했어요.");
         System.out.println("두 줄 추가했어요.");
+        System.out.println("세 줄 추가했어요.");
     }
 
 
