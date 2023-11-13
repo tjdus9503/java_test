@@ -1,6 +1,6 @@
 package com.ll;
 
-public class Main {
+public class LambdaExam {
     public static void main(String[] args) {
         
         // myIf : 익명 클래스로 객체 생성
@@ -36,12 +36,12 @@ public class Main {
         myIf5.myFun("Method from myIf5");
 
         // myIf6 : 정의해 놓은 메소드를 사용하여 재정의하기
-        MyIf2 myIf6 = msg -> Main.print(msg);
+        MyIf2 myIf6 = msg -> LambdaExam.print(msg);
 
         myIf6.myFun("Method from myIf6");
 
         // myIf7 : 매개변수 가공없이 함수의 인자로 들어갈 때, 해당 메소드를 메소드 참조로 작성하기
-        MyIf2 myIf7 = Main::print;
+        MyIf2 myIf7 = LambdaExam::print;
 
         myIf7.myFun("Method from myIf7");
     }
