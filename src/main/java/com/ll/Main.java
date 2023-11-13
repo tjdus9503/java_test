@@ -7,14 +7,4 @@ public class Main {
         System.out.println("두 줄 추가했어요.");
         System.out.println("세 줄 추가했어요.");
     }
-
-
-}
-
-interface TV {
-    final int MAX_VOLUME = 100;
-    void turnOn();
-    void turnOff();
-    void changeVolume(int volume);
-    void changeChannel(int channel);
 }
